@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.demo.activity.MainActivity" >
+
+    <Button
+        android:id="@+id/bt_buttom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="点击显示底部控件" 
+        />
+
+    <Button
+        android:id="@+id/bt_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_buttom"
+        android:layout_centerHorizontal="true"
+        android:text="点击显示自定义的dialog" />
+
+    <Button
+        android:id="@+id/bt_eventbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_dialog"
+        android:layout_centerHorizontal="true"
+        android:text="点击跳到eventbus" />
+
+    <Button
+        android:id="@+id/bt_sendhttp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_eventbus"
+        android:layout_centerHorizontal="true"
+        android:text="点击调到发送网络请求获取图片的页面" />
+
+    <Button
+        android:id="@+id/bt_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_sendhttp"
+        android:layout_centerHorizontal="true"
+        android:text="xlistview下拉刷新" />
+
+    <Button
+        android:id="@+id/bt_litepal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_plus"
+        android:layout_centerHorizontal="true"
+        android:text="litepal数据库插入" />
+
+</RelativeLayout>
